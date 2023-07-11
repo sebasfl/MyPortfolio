@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="javasc.js"></script>
+        <title>My Portfolio</title> 
+    </head>
+<body>
+    <div class="indice"> 
+         <div class="itext">
+             <h2>Mi Portafolio</h2> 
+             <ul class="links">
+                 <li><a href="#proyects" >Proyectos</a></li>
+                 <li><a href="#story">Historia</a></li>
+                 <li><a href="#experiencia">experiencia</a></li>
+             </ul>
+         </div>
+         <div class="social">
+             <a href="https://es-la.facebook.com" target="_blank" class="icono-facebook"><i class="fab fa-facebook"></i></a>
+             <a href="https://www.instagram.com" target="_blank" class="icono-instagram"><i class="fab fa-instagram"></i></a>
+             <a href="https://twitter.com/?lang=es" target="_blank" class="icono-twitter"><i class="fab fa-twitter"></i></a>
+             <a href="https://co.linkedin.com/?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank" class="icono-linkedin"><i class="fab fa-linkedin"></i></a>
+         </div>
+    </div>
+    
+    <div class="main-content">
+            <div class="top">
+                <button id="menu" class="menu-btn"><i class="fas fa-bars"></i></button>
+                <a class="texttop" href="mailto:s.franco2403@gmail.com?subject=Oportunidad%20Laboral&body=Hola,%20estoy%20interesado%20en" target="_blank">Contáctame</a>
+            </div>
+
+            <div id="proyects"> 
+
+                <div class="proyects-title"><a>Proyectos</a></div>
+
+                <div class="proyect-11">
+                        <img src="imagenes\sistema riego.jpg" alt="Sistema de Riego automatizado">
+                        <div class="caption"> Sistema de Riego Automático </div>
+                </div>
+                <div class="proyect-12">
+                        <img src="imagenes\blog.jpg" alt="Sistema de Riego automatizado">
+                        <div class="caption"> Blog de divulgación científica </div>
+                </div>
+                <div class="proyect-21">
+                    <img src="imagenes\3d.png" alt="Sistema de Riego automatizado">
+                    <div class="caption"> Impresión 3D </div>
+                </div>
+                <div class="proyect-22">
+                    <img src="imagenes\code.jpg" alt="Sistema de Riego automatizado">
+                    <div class="caption"> Lenguajes de programación </div>
+                </div>
+            </div>
+
+            <div id="story">
+                <div class="story-title"><a>Mi historia</a></div>
+                <div class="story-main">
+                    <img src="imagenes\perfil.webp" alt="Sistema de Riego automatizado">
+                    <p class="story-text">
+                        Bill Gates es un empresario, programador y filántropo estadounidense, conocido principalmente por ser el cofundador de Microsoft Corporation,
+                        la mayor empresa de software del mundo. Nacido el 28 de octubre de 1955 en Seattle, Washington, Gates mostró un interés temprano en la informática y, 
+                        junto con su amigo Paul Allen, lanzó Microsoft en 1975. Bajo su liderazgo, Microsoft introdujo una serie de innovaciones revolucionarias, incluyendo el
+                        sistema operativo Windows. A lo largo de su carrera, Gates ha sido reconocido como uno de los empresarios más influyentes en la industria tecnológica. 
+                        En 2000, él y su esposa, Melinda Gates, fundaron la Fundación Bill y Melinda Gates, una organización benéfica que se ha convertido en una de las más 
+                        grandes del mundo, centrada en mejorar la atención sanitaria y reducir la pobreza a nivel global. Aunque Gates dejó su puesto como CEO de Microsoft en 2000,
+                        sigue siendo una figura influyente en la industria tecnológica.
+                    </p>
+                </div>
+            </div>
+
+            <div id="experiencia">
+                <div class="experience"><a>Experiencia Laboral</a></div>
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <div class="exp-1">
+                            <a href="https://windmar.com/fl/why-windmar/" target="_blank"><img src="imagenes\wh.webp" alt="Trabajo 1" id="slider-1"></a>
+                            <a class="job-desc" href="https://windmar.com/fl/why-windmar/" target="_blank"> Ingeniero de Diseño</a> 
+                        </div>>
+                        <div class="exp-2">
+                            <a href="https://www.enercare.ca" target="_blank"><img src="imagenes\enercare.webp" alt="Trabajo 2" id="slider-2"></a>
+                            <a class="job-desc" href="https://www.enercare.ca" target="_blank"> Service Expert</a> 
+                        </div>
+                        <div class="exp-3">
+                            <a href="https://contactpoint360.com" target="_blank"><img src="imagenes\cp.jpg" alt="Trabajo 3" id="slider-3"></a>
+                            <a class="job-desc" href="https://contactpoint360.com" target="_blank">Analista QA</a> 
+                        </div>
+                        <div class="exp-4">
+                            <a href="https://uniandes.edu.co" target="_blank"><img src="imagenes\andes.png" alt="Trabajo 4" id="slider-4"></a> 
+                            <a class="job-desc" href="https://uniandes.edu.co" target="_blank"> Ingeniero de materiales</a> 
+                        </div>
+                    </div>
+                    <div class="slider-nav">
+                        <a href="#slider-1"> </a>
+                        <a href="#slider-2"> </a>
+                        <a href="#slider-3"> </a>
+                        <a href="#slider-4"> </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mails">
+                <form action="/" class="form" novalidate>
+                    <label for="email" id="mail-text">Registra tu correo:</label>
+                    <div class="input-group">
+                        <div class="input-control">
+                            <input type="text" id="email" name="email" required>
+                            <span class="error"></span>
+                        </div>
+                        <button type="submit"> Enviar</button>
+                    </div>
+                </form>                        
+            </div>
+
+    </div>
+    
+</body>
+</html>
